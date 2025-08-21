@@ -8,6 +8,7 @@ export default function Nav() {
       <NavLink to={'/'}>홈</NavLink>
       <NavLink to={'/about'}>소개</NavLink>
       <NavLink to={'/login'}>로그인</NavLink>
+      <NavLink to={'/design'}>스타일컴포넌트</NavLink>
     </NavStyle>
   );
 }
