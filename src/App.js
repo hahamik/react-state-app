@@ -3,6 +3,7 @@ import Nav from './components/Nav';
 import About from './pages/About';
 import Design from './pages/Design';
 import Home from './pages/Home';
+import Info from './pages/Info';
 import Login from './pages/Login';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/info/:id/good/:goodId" element={<Info />} />
         <Route
           path="/design"
           element={<Design user={{ id: 1, username: 'cos' }} />}

@@ -24,6 +24,9 @@ export default function About() {
   function moveLogin() {
     navigate('/login');
   }
+  function moveInfo() {
+    navigate('/info/10/good/20?page=5');
+  }
 
   return (
     <div>
@@ -32,6 +35,7 @@ export default function About() {
       <button onClick={addCount}>카운트 증가</button>
       <button onClick={addNumber}>넘버 증가</button>
       <button onClick={moveLogin}>로그인 페이지 이동동</button>
+      <button onClick={moveInfo}>인포 페이지 이동동</button>
     </div>
   );
 }
